@@ -2,7 +2,7 @@
 sudo yum -y update
 
 # Create a python virtual environment
-python -m venv .sandbox
+python3 -m venv .sandbox
 
 # Active the python virtual environment
 source .sandbox/bin/activate
